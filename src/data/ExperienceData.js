@@ -1,23 +1,23 @@
 export const ExperienceData = [
     {
         id: 1,
-        company: 'Globex Corporation',
-        jobtitle: 'Frontend Developer',
-        startYear: '2018',
-        endYear: '2019'
+        company: 'Orange',
+        jobtitle: 'Ingénieur Etudes et développement',
+        startYear: '2020',
+        endYear: 'Présent (Fin Aout 2022)'
     },
     {
         id: 2,
-        company: 'Vehement Capital Partners',
-        jobtitle: 'Backend Developer',
+        company: 'Vinci Enérgies',
+        jobtitle: 'Ingénieur Etudes et développement',
         startYear: '2019',
-        endYear: '2020'
+        endYear: '2019'
     },
     {
         id: 3,
-        company: 'Wonka Industries',
-        jobtitle: 'Marketing',
-        startYear: '2020',
-        endYear: 'Present'
+        company: 'Vinci Enérgies',
+        jobtitle: 'Ingénieur Etudes et développement',
+        startYear: '2019',
+        endYear: '2019'
     },
 ]

@@ -18,7 +18,7 @@ jobs:
         KEY: ${{ secrets.SSHKEY }}
       with:
         source: "."
-        target: "/home/alpha/portfolio"
+        target: "/var/www/portfolio"
 
     - name: Executing remote command
       uses: appleboy/ssh-action@master
@@ -27,4 +27,16 @@ jobs:
         USERNAME: ${{ secrets.USERNAME }}
         PORT: ${{ secrets.PORT }}
         KEY: ${{ secrets.SSHKEY }}
-        script: ls
+        script: |
+            whoami
+            echo "$HOST"
+            ls -a
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Run the tests
+      run: npm test
+
+    - name: Build
+      run: npm run build

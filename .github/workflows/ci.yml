@@ -1,4 +1,4 @@
-name: Deploy to my OVH 
+name: Deploy to my OV
 
 on: [push]
 

@@ -50,9 +50,12 @@ function Projects() {
                     <div className="projects--header">
                         <h1 style={{color: theme.primary}}>Projects</h1>
                     </div>
+                    
                     <div className="projects--body">
                         <div className="projects--bodyContainer">
-                            {ProjectsData.slice(0, 3).map(project => (
+
+                            En cours de developement ........
+                            {/*{ProjectsData.slice(0, 3).map(project => (
                                 <SingleProject
                                     theme={theme}
                                     key={project.id}
@@ -64,10 +67,10 @@ function Projects() {
                                     demo={project.demo}
                                     image={project.image}
                                 />
-                            ))}
-                        </div> 
+                            ))*/}
+                        </div>
 
-                        {ProjectsData.length > 3 && (
+                        {/*ProjectsData.length > 3 && (
                             <div className="projects--viewAll">
                                 <Link to="/projects">
                                     <button className={classes.viewAllBtn}>
@@ -76,13 +79,13 @@ function Projects() {
                                     </button>
                                 </Link>
                             </div>
-                        )}
+                        )*/}
                     </div>
                 </div>
             )}
 
         </>
     )
-}
+                        }
 
 export default Projects

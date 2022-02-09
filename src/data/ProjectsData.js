@@ -12,11 +12,11 @@ import eight from '../assets/svg/projects/eight.svg'
 export const ProjectsData = [
     {
         id: 1,
-        projectName: 'Employee Management',
-        projectDesc: 'This project aims to build an employee management system that consolidates all information of a company',
+        projectName: 'Voir ce code',
+        projectDesc: 'Ce projet est fait intégralement en React et avait pour objectif une initiation à  ce langage et tester ma polyvalence sur un autre Framework JS',
         tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        code: 'https://github.com/Alphadiallo94/portfolio',
+        demo: 'https://github.com/Alphadiallo94/portfolio',
         image: one
     },
     {

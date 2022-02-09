@@ -18,11 +18,13 @@ function Footer() {
     return (
         <div className="footer" style={{backgroundColor: theme.secondary}}>
             <p style={{color: theme.tertiary}}>
-                Fait avec amour
-                <span style={{color: theme.primary, margin: '0 0.5rem -1rem 0.5rem'}}>
+                Mémo personnel: Apporter ma pierre à la construction de l'Afrique. Alpha
+                {/* <span style={{color: theme.primary, margin: '0 0.5rem -1rem 0.5rem'}}>
                     ❤
                 </span>
-                 by {shortname(HeaderData.name)}
+                 by   {shortname( HeaderData.name)}
+                 */
+                 }
             </p>
         </div>
     )

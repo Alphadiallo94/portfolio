@@ -167,7 +167,7 @@ function Landing() {
                             {HeaderData.resumePdf && (
                                 <a
                                     href={HeaderData.resumePdf}
-                                    download='resume'
+                                    download='AlphaDiallo'
                                     target='_blank'
                                     rel='noreferrer'
                                 >

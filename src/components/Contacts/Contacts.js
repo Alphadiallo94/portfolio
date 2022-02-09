@@ -173,10 +173,10 @@ function Contacts() {
                         <form onSubmit={handleContactForm}>
                             <div className='input-container'>
                                 <label htmlFor='Name' className={classes.label}>
-                                    Name
+                                    Nom
                                 </label>
                                 <input
-                                    placeholder='John Doe'
+                                    placeholder='Votre nom '
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     type='text'
@@ -192,7 +192,7 @@ function Contacts() {
                                     Email
                                 </label>
                                 <input
-                                    placeholder='John@doe.com'
+                                    placeholder='nom@nom.com'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'
@@ -208,7 +208,7 @@ function Contacts() {
                                     Message
                                 </label>
                                 <textarea
-                                    placeholder='Type your message....'
+                                    placeholder='Votre message ....'
                                     value={message}
                                     onChange={(e) => setMessage(e.target.value)}
                                     type='text'
@@ -222,7 +222,7 @@ function Contacts() {
                                     type='submit'
                                     className={classes.submitBtn}
                                 >
-                                    <p>{!success ? 'Send' : 'Sent'}</p>
+                                    <p>{!success ? 'Envoyer' : 'Sent'}</p>
                                     <div className='submit-icon'>
                                         <AiOutlineSend
                                             className='send-icon'

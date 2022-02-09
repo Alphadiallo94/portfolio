@@ -1,4 +1,4 @@
-name: Deploy to my OV
+name: Deploy to my O
 
 on: [push]
 

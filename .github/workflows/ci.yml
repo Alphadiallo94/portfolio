@@ -3,7 +3,8 @@ name: Deploy to my O
 on: [push]
 
     
-
+env:
+  CI: false
 
 jobs:
   build:
@@ -19,7 +20,7 @@ jobs:
         USERNAME: ${{ secrets.USERNAME }}
         PORT: ${{ secrets.PORT }}
         KEY: ${{ secrets.SSHKEY }}
-        CI: false
+        
         
       with:
         source: "."

@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import './Footer.css'
 import { ThemeContext } from '../../contexts/ThemeContext'
-import { HeaderData } from '../../data/HeaderData'
+//import { HeaderData } from '../../data/HeaderData'
 
 function Footer() {
 

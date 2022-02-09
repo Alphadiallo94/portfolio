@@ -1,6 +1,8 @@
-name: Deploy to my O
+name: Deploy to my OVH
 
 on: [push]
+
+
 
 jobs:
   build:
@@ -16,6 +18,7 @@ jobs:
         USERNAME: ${{ secrets.USERNAME }}
         PORT: ${{ secrets.PORT }}
         KEY: ${{ secrets.SSHKEY }}
+
       with:
         source: "."
         target: "/home/alpha/portfolio"

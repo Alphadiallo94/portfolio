@@ -2,10 +2,6 @@ name: Deploy to my O
 
 on: [push]
 
-    
-env:
-  CI: false
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -20,8 +16,6 @@ jobs:
         USERNAME: ${{ secrets.USERNAME }}
         PORT: ${{ secrets.PORT }}
         KEY: ${{ secrets.SSHKEY }}
-        
-        
       with:
         source: "."
         target: "/home/alpha/portfolio"

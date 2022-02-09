@@ -2,6 +2,9 @@ name: Deploy to my O
 
 on: [push]
 
+    
+
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,12 +19,14 @@ jobs:
         USERNAME: ${{ secrets.USERNAME }}
         PORT: ${{ secrets.PORT }}
         KEY: ${{ secrets.SSHKEY }}
+        CI: false
+        
       with:
         source: "."
         target: "/home/alpha/portfolio"
 
     - name: Executing remote command
-      uses: appleboy/ssh-action@master
+      uses: appleboy/ssHeaderDatah-action@master
       with:
         host: ${{ secrets.HOST }}
         USERNAME: ${{ secrets.USERNAME }}

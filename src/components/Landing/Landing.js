@@ -167,12 +167,12 @@ function Landing() {
                             {HeaderData.resumePdf && (
                                 <a
                                     href={HeaderData.resumePdf}
-                                    download='AlphaDiallo'
+                                    download='alphadiallo'
                                     target='_blank'
                                     rel='noreferrer'
                                 >
                                     <Button className={classes.resumeBtn}>
-                                        Download CV
+                                        Télécharger CV
                                     </Button>
                                 </a>
                             )}

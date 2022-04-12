@@ -191,7 +191,7 @@ function Navbar() {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Home
+                                        Entete
                                     </span>
                                 </div>
                             </NavLink>

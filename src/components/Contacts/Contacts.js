@@ -151,11 +151,11 @@ function Contacts() {
                     setOpen(false);
                 });
             } else {
-                setErrMsg('Invalid email');
+                setErrMsg('Email invalide');
                 setOpen(true);
             }
         } else {
-            setErrMsg('Enter all the fields');
+            setErrMsg('Information(s) manquante(s)');
             setOpen(true);
         }
     };
@@ -223,6 +223,7 @@ function Contacts() {
                                     className={classes.submitBtn}
                                 >
                                     <p>{!success ? 'Envoyer' : 'Sent'}</p>
+
                                     <div className='submit-icon'>
                                         <AiOutlineSend
                                             className='send-icon'

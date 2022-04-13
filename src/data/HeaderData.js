@@ -3,7 +3,7 @@ import me from './me/me.png'
 
 export const HeaderData = {
     name: 'Alpha DIALLO',
-    title: "Ingénieur Etudes et développement",
+    title: "Ingénieur Etudes et de Développement",
     desciption:"Prochainement titulaire d'un Master Miage en Système d'Information Repartis et étant activement à la recherche d'une structure qui me correspond, aujourd'hui je me présente à vous Cellenza.",
     image :   me,
     resumePdf: resume

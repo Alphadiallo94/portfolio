@@ -10,7 +10,7 @@ export const EducationData = [
     {
         id: 2,
         institution: 'Université Orléans: Master 1 Miage',
-        course: 'Méthodes Informatiques appliquées à la gestion d entreprise',
+        course: 'Systèmes d’Information Répartis',
         startYear: '2020',
         endYear: '2021'
     },
